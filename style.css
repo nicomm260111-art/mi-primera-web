@@ -1,7 +1,26 @@
 body {
-  background: #111;
-  color: white;
-  font-family: Arial;
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: Arial, sans-serif;
   text-align: center;
+  padding: 40px;
 }
-Añado estilos CSS
+
+h1 {
+  color: #38bdf8;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #1e293b;
+  margin: 10px auto;
+  padding: 10px;
+  width: 200px;
+  border-radius: 8px;
+}
+
+Mejoro diseño con CSS
