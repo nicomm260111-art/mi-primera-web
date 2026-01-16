@@ -38,3 +38,18 @@ a {
   text-decoration: none;
   font-weight: bold;
 }
+button {
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+button:hover {
+  background: #0ea5e9;
+}
+Estilo al botón interactivo
