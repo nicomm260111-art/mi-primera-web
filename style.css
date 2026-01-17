@@ -53,3 +53,27 @@ button:hover {
   background: #0ea5e9;
 }
 Estilo al botón interactivo
+.skills {
+  margin-top: 20px;
+}
+
+.skills button {
+  margin: 5px;
+  background: #38bdf8;
+  color: #0f172a;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.skills button:hover {
+  background: #0ea5e9;
+}
+
+#descripcion {
+  margin-top: 15px;
+  font-size: 1rem;
+}
+Estilo para botones de aprendizaje
