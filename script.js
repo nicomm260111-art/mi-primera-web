@@ -26,3 +26,4 @@ function mostrarInfo(tipo) {
   }
 }
 Botones interactivos para HTML, CSS y GitHub
+alert("JS conectado correctamente");
