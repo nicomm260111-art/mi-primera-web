@@ -32,3 +32,7 @@ function mostrarInfo(tipo) {
 </p>";
   }
 }
+if (tipo === "js") {
+  descripcion.innerHTML =
+    "<p><strong>JavaScript</strong>: Lenguaje que permite añadir interactividad a una web, como botones, animaciones y cambios en tiempo real.</p>";
+}
