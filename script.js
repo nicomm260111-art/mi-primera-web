@@ -10,20 +10,22 @@ boton.addEventListener("click", () => {
     boton.textContent = "Más sobre mí";
   }
 });
+
 function mostrarInfo(tipo) {
   const descripcion = document.getElementById("descripcion");
 
   if (tipo === "html") {
-    descripcion.innerHTML = "<p><strong>HTML</strong>: Es el lenguaje que estructura una página web. Define textos, títulos, imágenes y enlaces.</p>";
+    descripcion.innerHTML =
+      "<p><strong>HTML</strong>: Lenguaje que se usa para crear la estructura de una página web.</p>";
   }
 
   if (tipo === "css") {
-    descripcion.innerHTML = "<p><strong>CSS</strong>: Se encarga del diseño de la web: colores, tamaños, posiciones y estilos.</p>";
+    descripcion.innerHTML =
+      "<p><strong>CSS</strong>: Se utiliza para dar diseño, colores y estilo a la web.</p>";
   }
 
   if (tipo === "github") {
-    descripcion.innerHTML = "<p><strong>GitHub</strong>: Plataforma para guardar proyectos, controlar versiones y mostrar tu trabajo al mundo.</p>";
+    descripcion.innerHTML =
+      "<p><strong>GitHub</strong>: Plataforma para guardar proyectos y mostrar tu trabajo.</p>";
   }
 }
-Botones interactivos para HTML, CSS y GitHub
-alert("JS conectado correctamente");
