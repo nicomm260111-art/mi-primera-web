@@ -16,16 +16,19 @@ function mostrarInfo(tipo) {
 
   if (tipo === "html") {
     descripcion.innerHTML =
-      "<p><strong>HTML</strong>: Lenguaje que se usa para crear la estructura de una página web.</p>";
+      "<p><strong>HTML</strong>: HTML es el lenguaje base de la web. Sirve para crear la estructura de una página, como títulos, textos, imágenes y enlaces.
+</p>";
   }
 
   if (tipo === "css") {
     descripcion.innerHTML =
-      "<p><strong>CSS</strong>: Se utiliza para dar diseño, colores y estilo a la web.</p>";
+      "<p><strong>CSS</strong>: CSS se usa para dar estilo y diseño a una página web. Permite cambiar colores, tamaños, fuentes y la forma en que se ve el contenido.
+</p>";
   }
 
   if (tipo === "github") {
     descripcion.innerHTML =
-      "<p><strong>GitHub</strong>: Plataforma para guardar proyectos y mostrar tu trabajo.</p>";
+      "<p><strong>GitHub</strong>: GitHub es una plataforma donde se guardan proyectos de programación. Se utiliza para controlar cambios y mostrar el trabajo realizado.
+</p>";
   }
 }
